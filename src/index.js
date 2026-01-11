@@ -17,7 +17,7 @@ const routes = {
   "ecr.laoex.link": "https://public.ecr.aws",
 
   // staging
-  ["docker-staging.laoex.link" + CUSTOM_DOMAIN]: dockerHub,
+  "docker-staging.laoex.link": dockerHub,
 };
 
 function routeByHosts(host) {
